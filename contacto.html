@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="CSS/estilo.css">
+    </head>
+    <body>
+        <nav class="menu-nav">
+            <img class="logo" src="SRC/Logo.jpg" alt="">
+            <ul class="menu">
+                <li><a href="index.html" class="btn-menu "> INICIO</a></li>
+                <li><a href="imagenes.html" class="btn-menu">IMAGENES</a></li>
+                <li><a href="videos.html" class="btn-menu">VIDEOS</a></li>
+                <li><a href="noticias.html" class="btn-menu">NOTICIAS</a></li>
+                <li><a href="contacto.html" class="btn-menu activo">CONTACTOS</a></li>
+            </ul>
+        </nav>
+        <hr>
+        
+        <div class="contenido">
+            <form  class="contact_form" action="#" id="contact_form" runat="server">
+                <div>
+                    <ul>
+                        <li>
+                            <h2>Contactos</h2>
+                            <span class="required_notification">* Datos requeridos</span>
+                        </li>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input type="text" placeholder="ingrese su nombre" required />
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="ingrese su correo" required />
+                            <span class="form_hint">Formato correcto: "nombre@ejemplo.com"</span>
+                        </li>
+                        <li>
+                            <label for="message">Mensaje:</label>
+                            <textarea name="message" cols="40" rows="6" required></textarea>
+                        </li>
+                        <li>
+                            <button class="submit" type="submit">Enviar mensaje</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+            
+        </div>
+        <hr>
+    
+        <footer>
+            <hr>
+            <div class="pie">
+                Todos los derechos reservados al MinTic
+            </div>
+        </footer>
+    </body>
+    </html>
